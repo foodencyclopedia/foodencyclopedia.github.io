@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - 页面未找到</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .error-container {
+            text-align: center;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            font-size: 3rem;
+            color: #333;
+        }
+
+        p {
+            font-size: 1.2rem;
+            color: #777;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            margin-top: 20px;
+            color: #777;
+        }
+
+        footer a {
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        // 获取上次访问的时间戳
+        var lastVisitTimestamp = localStorage.getItem('lastVisitTimestamp');
+
+        // 获取当前时间戳
+        var currentTimestamp = Date.now();
+
+        // 如果上次访问时间在一分钟之前，进行重定向
+        if (!lastVisitTimestamp || (currentTimestamp - lastVisitTimestamp > 60000)) {
+            // 更新本次访问时间戳
+            localStorage.setItem('lastVisitTimestamp', currentTimestamp);
+
+            // 进行重定向
+            window.location.href = "https://foodencyclopedia.github.io/404"; 
+        }
+    </script>
+    <div class="error-container">
+        <h1>404 - 页面未找到</h1>
+        <p>哎呀！您查找的页面不存在。</p>
+        <a href="https://foodencyclopedia.github.io/mainpage">返回首页</a>
+    </div>
+    <footer>
+        <p>&copy; 2024 <a href="https://foodencyclopedia.github.io/">食品百科</a></p>
+    </footer>
+</body>
+</html>
