@@ -18,9 +18,9 @@ var translations = {
         'en': 'Welcome to Foodpedia'
     },
     'helloMessage': {
-        'zh': '您好，欢迎阁下访问由中文维基百科用户<a href="https://w.wiki/_w2aj">Winzekter986</a>制作的美食百科，本页面致力于发表食物相关的教程。',
-        'zh-hant': '您好，歡迎閣下訪問由中文維基百科用戶Winzekter986製作的美食百科，本頁面致力於發表食物相關的教程。',
-        'en': 'Hello, welcome to Foodpedia created by Chinese Wikipedia user Winzekter986. This page is dedicated to publishing tutorials related to food.'
+        'zh': '您好，欢迎阁下访问由中文维基百科用户 <a href="https://w.wiki/_w2aj">Winzekter986</a> 制作的美食百科，本页面致力于发表食物相关的教程。',
+        'zh-hant': '您好，歡迎閣下訪問由中文維基百科用戶 <a href="https://w.wiki/_w2aj">Winzekter986</a> 製作的美食百科，本頁面致力於發表食物相關的教程。',
+        'en': 'Hello, welcome to Foodpedia created by Chinese Wikipedia user <a href="https://w.wiki/_w2aj">Winzekter986</a>. This page is dedicated to publishing tutorials related to food.'
     },
     'visitFoodpedia': {
         'zh': '点此访问食物百科',
@@ -33,8 +33,8 @@ var translations = {
         'en': 'Copyright Statement'
     },
     'copyrightContent': {
-        'zh': '本页面所有文字均以<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hant">CC BY-SA 4.0</a>释出，本页面所有图片均以<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hant">CC BY-SA 4.0</a>释出，恳请各位遵守协议共享，谢谢！',
-        'zh-hant': '本頁面所有文字均以<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hant">CC BY-SA 4.0</a>釋出，本頁面所有圖片均以<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hant">CC BY-SA 4.0</a>釋出，懇請各位遵守協議共享，謝謝！',
+        'zh': '本页面所有文字均以 <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hant">CC BY-SA 4.0</a> 释出，本页面所有图片均以 <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hant">CC BY-SA 4.0</a> 释出，恳请各位遵守协议共享，谢谢！',
+        'zh-hant': '本頁面所有文字均以 <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hant">CC BY-SA 4.0</a> 釋出，本頁面所有圖片均以 <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hant">CC BY-SA 4.0</a> 釋出，懇請各位遵守協議共享，謝謝！',
         'en': 'All text on this page is released under <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hant">CC BY-SA 4.0</a>. All images on this page are released under <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hant">CC BY-SA 4.0</a>. Please abide by the sharing agreement. Thank you!'
     },
     'footerMessage': {
