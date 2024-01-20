@@ -23,9 +23,9 @@ var translations = {
         'en': 'Hello, welcome to Foodpedia created by Chinese Wikipedia user <a href="https://w.wiki/_w2aj">Winzekter986</a>. This page is dedicated to publishing tutorials related to food.'
     },
     'visitFoodpedia': {
-        'zh': '点此访问食物百科',
-        'zh-hant': '點此訪問食物百科',
-        'en': 'Visit Foodpedia'
+        'zh': '点此访问首页',
+        'zh-hant': '點此訪問首頁',
+        'en': 'Visit Mainpage'
     },
     'copyrightTitle': {
         'zh': '版权声明',
@@ -38,9 +38,9 @@ var translations = {
         'en': 'All text on this page is released under <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hant">CC BY-SA 4.0</a>. All images on this page are released under <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hant">CC BY-SA 4.0</a>. Please abide by the sharing agreement. Thank you!'
     },
     'footerMessage': {
-        'zh': '© 2024 | <a href="https://w.wiki/_w2aj">Winzekter986</a> | <a href="./mainpage.html" data-lang="visitFoodpedia"> 食物百科</a>',
-        'zh-hant': '© 2024 | <a href="https://w.wiki/_w2aj">Winzekter986</a> | <a href="./mainpage.html" data-lang="visitFoodpedia"> 食物百科</a>',
-        'en': '© 2024 | <a href="https://w.wiki/_w2aj">Winzekter986</a> | <a href="./mainpage.html" data-lang="visitFoodpedia"> Foodpedia</a>'
+        'zh': '© 2024 | <a href="https://w.wiki/_w2aj">Winzekter986</a> | <a href="./index.html" data-lang="visitFoodpedia"> 食物百科</a>',
+        'zh-hant': '© 2024 | <a href="https://w.wiki/_w2aj">Winzekter986</a> | <a href="./index.html" data-lang="visitFoodpedia"> 食物百科</a>',
+        'en': '© 2024 | <a href="https://w.wiki/_w2aj">Winzekter986</a> | <a href="./index.html" data-lang="visitFoodpedia"> Foodpedia</a>'
     }
 };
 
