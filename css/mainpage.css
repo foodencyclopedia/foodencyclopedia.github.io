@@ -1,18 +1,67 @@
 /* mainpage.css */
 
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
 }
+
+header {
+    background-color: #87CEEB;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.header-container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 0;
+}
+
 .food-welcome-box {
     background-color: #ffebcd;
     border: 1px solid #ffa07a;
     padding: 20px;
-    margin: 10px 0;
+    margin: 20px auto;
+    max-width: 600px;
     text-align: center;
 }
 
 .food-welcome-box h1 {
     font-size: 24px;
     margin-bottom: 10px;
+}
+
+.food-welcome-box p {
+    font-size: 16px;
+    margin: 0;
+}
+
+.image-container {
+    max-width: 600px;
+    margin: 20px auto;
+    position: relative;
+}
+
+.food-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.image-caption {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    font-size: 14px;
+    margin: 0;
 }
